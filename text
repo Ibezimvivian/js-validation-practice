@@ -1,0 +1,57 @@
+     // 1. Split and get the length of each path
+
+const url = "https://platform.openai.com/account/usage";
+
+//SOLUTION
+
+// 2. Log "👍" if number is divisible by 2, if not log "👎"
+
+const nums = [90, 23, 65, 23, 678, 21, 34, 69];
+
+//SOLUTION
+
+//3. People are going to a party, if they are between 13 and 18, log "This is your RSVP" if they are under 13 log "You are underage" if they are over 18 log "You are over age".
+//ex. less than 13 ---> "Emma, is underage"
+//ex 2. between 13 and 18 ---> "Ava, this is your RSVP"
+//ex 3. over 18 ---> "Charlotte, you are over age"
+
+const people = [
+  { name: "Emma", age: 10 },
+  { name: "Noah", age: 11 },
+  { name: "Olivia", age: 12 },
+  { name: "Liam", age: 13 },
+  { name: "Ava", age: 14 },
+  { name: "William", age: 15 },
+  { name: "Sophia", age: 16 },
+  { name: "Mason", age: 17 },
+  { name: "Isabella", age: 18 },
+  { name: "James", age: 19 },
+  { name: "Mia", age: 20 },
+  { name: "Benjamin", age: 21 },
+  { name: "Charlotte", age: 22 },
+  { name: "Elijah", age: 23 },
+  { name: "Amelia", age: 24 },
+  { name: "Lucas", age: 25 },
+  { name: "Harper", age: 26 },
+  { name: "Alexander", age: 27 },
+  { name: "Evelyn", age: 28 },
+];
+
+//SOLUTION
+
+
+//forEach can only be used on an array
+
+
+
+//1. Create a signup function, it should take 3 parameters, username, password and confirmPassword
+
+//2. It should check for the username and password
+
+//3. The username must be at least 6 chars long
+
+//4. The password must be at least 8 chars long
+
+//5. Passwords must match
+
+//6. Each console log must be in a separate function
